@@ -11,6 +11,10 @@
 
             <button v-on:click="signUp">Sign Up</button>
 
+            <p>
+                <router-link to="/login">Login</router-link>
+            </p>
+
     </div>
 
 </div>
@@ -55,7 +59,7 @@ export default {
         }
     },
 
-    mounted()
+    /*mounted()
     {   
             let user = localStorage.getItem('user-info');
 
@@ -64,7 +68,7 @@ export default {
                  this.$router.push({name:'Home'});
             }
 
-    }
+    }*/
 }
 </script>
 
